@@ -1,0 +1,25 @@
+$font-size-root: 14px;
+$font-family-root: 'Roboto', sans-serif;
+
+$c1: #2661b9;
+$c2: #363636;
+
+$white: #fff;
+$black: #000;
+
+$maxWidth: 1440px;
+$minWidth: 320px;
+
+$animate: all 0.3s ease-in-out;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 375px,
+        smd: 640px,
+        md: 768px,
+        lg: 1024px,
+        xl: 1200px,
+        xxl: 1400px, // MacBook Air
+        xxxl: 1920px,
+        xxxxl: 2500px
+) !default;

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "lib": ["dom", "es2018", "scripthost", "es2015.collection"]
+  },
+  "include": [
+    "src/stop-war/ts/**/*"
+  ],
+  "exclude": ["node_modules/**/*"]
+}

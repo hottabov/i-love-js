@@ -1,0 +1,11 @@
+block vars
+doctype
+html(lang='en-EN')
+    head
+        include ../partials/head/_head
+    body
+        //noscript
+            iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-N2TQ75C' height='0' width='0' style='display:none;visibility:hidden')
+
+        block content
+        script(src='./ts/script.ts' type='module')

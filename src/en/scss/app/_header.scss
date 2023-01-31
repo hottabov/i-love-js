@@ -1,0 +1,15 @@
+.header {
+
+  &.sticky {
+    position: fixed;
+    margin-top: -50px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+    }
+
+    .header__wrapper {
+      padding: 6px 0;
+    }
+  }
+}
