@@ -3,29 +3,27 @@
   "version": "1.0.0",
   "description": "parcel pug scss template",
   "dependencies": {
-    "gsap": "^3.11.3",
-    "masonry-layout": "^4.2.2",
     "normalize.css": "^8.0.1",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.7"
   },
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.0.0",
-    "@parcel/transformer-sass": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.7.0",
-    "eslint": "^8.4.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "parcel": "^2.0.0",
-    "prettier": "2.5.1",
-    "sharp": "^0.29.2",
-    "typescript": "^4.5.4"
+    "@parcel/transformer-pug": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "parcel": "^2.8.3",
+    "prettier": "2.8.3",
+    "sharp": "^0.31.3",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start:en": "parcel src/en/index.pug --no-cache",
     "build:en": "npm run clean:en && parcel build src/en/index.pug --no-source-maps --no-cache --public-url ./ --dist-dir build/en",
     "clean:en": "rm -rf ./build/en && rm -rf ./.parcel-cache"
   },
-  "author": "mgid",
+  "author": "hottabov",
   "license": "ISC"
 }
